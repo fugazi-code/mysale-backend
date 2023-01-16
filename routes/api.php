@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\Api\Actions\GetCitiesAction;
+use App\Http\Controllers\Api\Actions\LoginAction;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -14,10 +16,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::post('/sanctum/token', function (Request $request) {
+Route::post('/login', LoginAction::class);
 
-});
+Route::get('/cities', GetCitiesAction::class);
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
-});
+// Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
+//     return $request->user();
+// });

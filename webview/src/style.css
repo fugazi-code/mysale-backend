@@ -1,0 +1,11 @@
+@import "bootstrap";
+
+.navbar{
+    height: 60px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #a15c06 !important;
+    background-color: rgb(218, 218, 218);
+}
+
