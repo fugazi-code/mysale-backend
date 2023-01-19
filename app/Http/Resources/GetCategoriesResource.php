@@ -2,6 +2,7 @@
 
 namespace App\Http\Resources;
 
+use Illuminate\Support\Str;
 use Illuminate\Http\Resources\Json\JsonResource;
 
 class GetCategoriesResource extends JsonResource
@@ -19,6 +20,7 @@ class GetCategoriesResource extends JsonResource
             'id' => $this->id,
             'name' => $this->name,
             'isActive' => $this->isActive,
+            'slug' => Str::slug($this->name),
             'sub' => GetSubCategoriesResource::collection($this->subCategory)
         ];
     }
