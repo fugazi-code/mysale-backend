@@ -11,7 +11,7 @@ class GetCategories extends Controller
 {
     public function __invoke()
     {
-        $category = Category::with(['subCategory'])->get();
+        $category = Category::with(['subCategory'])->orderBy('order')->get();
 
         return GetCategoriesResource::collection($category);
     }
