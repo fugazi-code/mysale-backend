@@ -22,7 +22,8 @@ class DatabaseSeeder extends Seeder
         // ]);
 
         $this->call([
-            CitiesSeeder::class
+            CitiesSeeder::class,
+            CategorySeeder::class
         ]);
     }
 }

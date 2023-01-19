@@ -1,0 +1,281 @@
+{
+	"Property": [
+		"New Developments",
+		"Rentals",
+		"For Sale"
+	],
+	"Cars For Sale": [
+		"Used Cars",
+		"New Cars"
+	],
+	"Mobile Phones & Gadgets": [
+		"Mobile Phones",
+		"Tablets",
+		"Readers",
+		"Wearables & Smart Watches",
+		"Mobile & Gadget Accessories",
+		"Walkie-Talkie",
+		"Electronic Cigarettes",
+		"Other Gadgets"
+	],
+	"Computers & Tech": [
+		"Desktops",
+		"Laptops & Notebooks",
+		"Parts & Accessories",
+		"Printers",
+		"Scanners & Copiers",
+		"Office & Business Technology"
+	],
+	"Men's Fashion": [
+		"Activewear",
+		"Tops & Sets",
+		"Bottoms",
+		"Footwear",
+		"Coats",
+		"Jackets and Outerwear",
+		"Bags",
+		"Watches and Accessories"
+	],
+	"Women's Fashion": [
+		"Activewear",
+		"Tops",
+		"Bottoms",
+		"Dresses & Sets",
+		"Footwear",
+		"Coats",
+		"Jackets and Outerwear",
+		"Bags and Wallets",
+		"Swimwear",
+		"Maternity wear",
+		"Watches and Accessories",
+		"Undergarments & Loungewear",
+		"Jewelry & Organizers"
+	],
+	"Furniture & Home Living": [
+		"Furniture",
+		"Outdoor Furniture",
+		"Office Furniture and Fixtures",
+		"Lighting & Fans",
+		"Home Decor",
+		"Home Fragrance",
+		"Bedding & Towels",
+		"Bathroom & Kitchen Fixtures",
+		"Cleaning & Homecare Supplies",
+		"Kitchenware & Tableware",
+		"Security and Locks",
+		"Gardening",
+		"Home Improvement & Organization"
+	],
+	"Home Services": [
+		"Home Cleaning",
+		"Plumbing Services",
+		"Aircon Services",
+		"Electrical",
+		"Lighting & Wiring",
+		"Home Repairs",
+		"Movers & Delivery",
+		"Renovations & Interior Design",
+		"Others"
+	],
+	"Video Gaming": [
+		"Video Game Consoles",
+		"Video Games",
+		"Gaming Accessories"
+	],
+	"Audio": [
+		"Earphones",
+		"Headphones & Headsets",
+		"Microphones",
+		"Voice Recorders",
+		"Portable Music Players",
+		"Portal Audio Accessories",
+		"Soundbars",
+		"Speakers & Amplifiers",
+		"Other Audio Equipment"
+	],
+	"Photography": [
+		"Cameras",
+		"Lens & Kits",
+		"Drones",
+		"Video Cameras",
+		"Photography Accessories"
+	],
+	"TV & Home Appliances": [
+		"TV & Entertainment",
+		"Kitchen Appliances",
+		"Air Conditioning and Heating",
+		"Washing Machines and Dryers",
+		"Vacuum Cleaner & Housekeeping",
+		"Water Heater & Instant Showers",
+		"Air Purifiers & Dehumidifiers",
+		"Irons & Steamers",
+		"Other Home Appliances"
+	],
+	"Luxury": [
+		"Bags & Wallets",
+		"Apparel",
+		"Accessories",
+		"Watches",
+		"Sneakers & Footwear"
+	],
+	"Babies & Kids": [
+		"Babies & Kids Fashion",
+		"Baby Nursery & Kids Furniture",
+		"Going Out",
+		"Bathing & Changing",
+		"Nursing & Feeding",
+		"Baby Monitors",
+		"Maternity Care",
+		"Infant Playtime"
+	],
+	"Hobbies & Toys": [
+		"Toys & Games",
+		"Music & Media",
+		"Books & Magazines",
+		"Stationary & Craft",
+		"Memorazilia & Collectibles",
+		"Travel"
+	],
+	"Beauty & Personal Care": [
+		"Sanitizers & Disinfectants",
+		"Hands & Nails",
+		"Bath & Body",
+		"Face",
+		"Hair",
+		"Ear Care",
+		"Vision Care",
+		"Foot Care",
+		"Oral Care",
+		"Sanitary Hygiene",
+		"Men's Grooming",
+		"Fragrance & Deodorants"
+	],
+	"Health & Nutrition": [
+		"Insect Repellents",
+		"Family Planning",
+		"Massage Devices",
+		"Assistive & Rehabilatory Aids",
+		"Face Masks & Face Shields",
+		"Thermometers",
+		"Medical Supplies & Tools",
+		"Health Supplements",
+		"Braces",
+		"Support & Protection",
+		"Health Monitors & Weighing Scales"
+	],
+	"Sports Equipment": [
+		"Sports & Games",
+		"Exercise & Fitness",
+		"Bicycles & Parts",
+		"Fishing",
+		"Hiking & Camping",
+		"Other Sports Equipment and Supplies"
+	],
+	"Food & Drinks": [
+		"Packaged & Instant Food",
+		"Local Eats",
+		"Homemade Bakes",
+		"Spice & Seasoning",
+		"Chilled & Frozen Food",
+		"Fresh Produce",
+		"Rice & Noodles",
+		"Beverages",
+		"Gift Baskets & Hampers",
+		"Other Food & Drinks"
+	],
+	"Pet Supplies": [
+		"Pet Food",
+		"Homes & Other Pet Accessories",
+		"Health & Grooming"
+	],
+	"Tickets & Vouchers": [
+		"Event Tickets",
+		"Vouchers",
+		"Store Credits",
+		"Local Attractions & Transport",
+		"Fligths & Overseas Attractions"
+	],
+	"Commercial & Industrial": [
+		"Construction Tools & Equipment",
+		"Construction & Building Materials",
+		"Industrial Equipment"
+	],
+	"Car Parts & Accessories": [
+		"Audio,Video,Alarm and Other Electronic Accessories",
+		"Body Parts and Accessories",
+		"Emblem,Sticker and Decals",
+		"Engine and Aircon Parts and Accessories",
+		"Lightings,Horns, and other Electrical Parts and Accessories",
+		"Mags and Tires",
+		"Maintenance Fluids and Filters",
+		"Mufflers and Exhaust Parts and Accessories",
+		"Other Automotive Parts and Accessories",
+		"Steering,Brakes,Control Parts and Accessories",
+		"Suspension Parts and Accessories",
+		"Upholstery,Seatcovers and Other Interior Parts and Accessories"
+	],
+	"Motorbikes": [
+		"Motorbikes for Sale",
+		"Motorbike Parts & Accessories"
+	],
+	"Vehicle Rentals": [
+		"Wedding Cars",
+		"Van",
+		"Truck",
+		"Sedan",
+		"SUV",
+		"MPV",
+		"Hatchback"
+	],
+	"Special Vehicles": [
+		"Heavy Vehicles",
+		"Boats and Aircrafts",
+		"Heavy Vehicles,Boats and Aircrafts Parts and Accessories"
+	],
+	"Lifestyle Services": [
+		"Pet Care Services",
+		"Food,Event & Party Services",
+		"Caregiving Services",
+		"Tailoring & Restoration",
+		"Electronics & Gadget Repairs",
+		"Beauty & Health Services"
+	],
+	"Jobs & Opportunities": [
+		"Admin,Legal & Finance",
+		"Call Center and BP(Business Process Outsourcing)",
+		"Cleaning & Housekeeping",
+		"Computer & IT",
+		"Creative, Media & Publishing",
+		"Distributors",
+		"Domestic Help",
+		"Education & Training",
+		"Engineering & Technical",
+		"Events",
+		"Franchisors",
+		"Hotels & Restaurants",
+		"Internships & Others",
+		"Nursing & Healthcare",
+		"Production & Factory",
+		"Sales, Retail & Marketing",
+		"Security",
+		"Transport & Delivery",
+		"Others"
+	],
+	"Business Services": [
+		"Design & Marketing",
+		"Industrial Equipment Rental",
+		"Admin,Finance,Legal",
+		"IT & Programming",
+		"Others"
+	],
+	"Announcements": [],
+	"Looking For": [],
+	"Everything Else": [
+		"Looking For",
+		"Others"
+	],
+	"Community": [],
+	"Travel": [
+		"Car Rentals"
+	]
+}
