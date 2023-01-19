@@ -33,15 +33,12 @@
                 </ul>
                 <ul class="navbar-nav h-100  d-flex flex-row">
                     <li class="nav-item">
-                        <router-link class="text-nowrap btn btn-link fw-lighter h-100 pt-md-4 pt-0 px-2"
+                        <router-link class="text-nowrap btn btn-sm btn-primary mt-md-4 mt-0"
                             :to="{ name: 'home' }">Log In</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link class="text-nowrap btn btn-link fw-lighter h-100 pt-md-4 pt-0 px-2"
+                        <router-link class="text-nowrap btn btn-sm btn-link mt-md-4 mt-0"
                             :to="{ name: 'home' }">Sign Up</router-link>
-                    </li>
-                    <li class="nav-item h-100 ms-2">
-                        <button type="button" class="btn btn-info text-white mt-md-3 mt-0 px-2">Sell</button>
                     </li>
                 </ul>
             </div>
