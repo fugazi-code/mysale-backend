@@ -1,9 +1,10 @@
 <template>
-        <GuestLayout>
-            <h1>Home</h1>
-        </GuestLayout>
+    <GuestLayout>
+        <SearchCardComponent></SearchCardComponent>
+    </GuestLayout>
 </template>
 
 <script setup>
-    import GuestLayout from './layouts/GuestLayout.vue';
+import GuestLayout from './layouts/GuestLayout.vue';
+import SearchCardComponent from '../components/SearchCardComponent.vue';
 </script>
