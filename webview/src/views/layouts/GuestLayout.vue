@@ -1,6 +1,9 @@
 
 <template>
     <NavbarComponent></NavbarComponent>
+    <div class="container">
+        <slot></slot>
+    </div>
 </template>
 
 <script>
