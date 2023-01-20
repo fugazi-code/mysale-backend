@@ -33,12 +33,12 @@
                 </ul>
                 <ul class="navbar-nav h-100  d-flex flex-row">
                     <li class="nav-item">
-                        <router-link class="text-nowrap btn btn-sm btn-primary mt-md-4 mt-0"
-                            :to="{ name: 'home' }">Log In</router-link>
-                    </li>
-                    <li class="nav-item">
                         <router-link class="text-decoration-none fw-bold text-nowrap no-underline btn btn-sm btn-link mt-md-4 mt-0"
                             :to="{ name: 'home' }">Register</router-link>
+                    </li>
+                    <li class="nav-item">
+                        <router-link class="text-nowrap btn btn-sm btn-primary mt-md-4 mt-0"
+                            :to="{ name: 'home' }">Log In</router-link>
                     </li>
                 </ul>
             </div>
