@@ -4,7 +4,7 @@
             <div class="container h-100  d-flex flex-column flex-md-row  justify-content-between">
                 <ul class="navbar-nav h-100">
                     <router-link class="navbar-brand my-auto" :to="{ name: 'home' }">
-                        <img src="../assets/nav-logo.svg" alt="mysale logo" width="120" height="34" />
+                        <img src="../assets/mysale-logo.png" alt="mysale logo" width="60" height="60" />
                     </router-link>
                     <li class="nav-item pt-3 me-2">
                         <div class="input-group mb-3">

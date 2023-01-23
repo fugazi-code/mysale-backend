@@ -21,6 +21,6 @@
     background-image: url(/src/assets/search-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: -368px;
+    background-position-y: -469px;
 }
 </style>
