@@ -13,4 +13,17 @@ class Post extends Model
     protected $casts = [
         'price_type' => PriceTypeEnum::class
     ];
+
+    protected $fillable = [
+        'description',
+        'title',
+        'category_id',
+        'price',
+        'price_type',
+    ];
+
+    public function postImage()
+    {
+        return $this->hasMany(PostImage::class, 'post_id', 'id');
+    }
 }

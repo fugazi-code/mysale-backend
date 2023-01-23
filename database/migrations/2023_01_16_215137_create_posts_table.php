@@ -15,13 +15,15 @@ return new class extends Migration
     {
         Schema::create('posts', function (Blueprint $table) {
             $table->id();
+            $table->integer('user_id');
             $table->text('description');
             $table->text('title');
-            $table->text('category_id');
-            $table->float('price');
+            $table->integer('category_id');
+            $table->integer('city_id');
+            $table->bigInteger('price');
             $table->string('price_type')->default('for sale');
-            $table->string('detail_type');
-            $table->string('detail_id');
+            $table->string('detail_type')->nullable();
+            $table->string('detail_id')->nullable();
             $table->timestamps();
         });
     }
