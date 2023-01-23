@@ -18,6 +18,7 @@ return new class extends Migration
             $table->string('name');
             $table->integer('order');
             $table->string('logo')->nullable();
+            $table->string('banner')->default('product-default.png');
             $table->boolean('isActive');
             $table->timestamps();
         });

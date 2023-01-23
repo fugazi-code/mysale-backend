@@ -21,18 +21,27 @@ class DatabaseSeeder extends Seeder
         $this->call([
             CitiesSeeder::class,
             CategorySeeder::class,
+            RoleSeeder::class,
         ]);
 
+        if (!in_array(app()->environment(), ['production'])) {
+            $this->seedSamples();
+        }
+
+        User::factory()->create([
+            'name' => 'Admin',
+            'email' => 'admin@site.com',
+            'role_id' => 1,
+        ]);
+    }
+
+    public function seedSamples()
+    {
         User::factory()
             ->count(100)
             ->has(
                 Post::factory()->count(10)->has(PostImage::factory()->count(1))
             )
             ->create();
-
-        User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'admin@site.com',
-        ]);
     }
 }

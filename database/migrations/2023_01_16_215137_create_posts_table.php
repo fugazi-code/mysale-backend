@@ -24,6 +24,7 @@ return new class extends Migration
             $table->string('price_type')->default('for sale');
             $table->string('detail_type')->nullable();
             $table->string('detail_id')->nullable();
+            $table->softDeletes();
             $table->timestamps();
         });
     }
