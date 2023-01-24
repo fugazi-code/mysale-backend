@@ -46,4 +46,25 @@ class User extends Authenticatable
     {
         return $this->hasMany(Post::class, 'user_id', 'id');
     }
+
+    public static function rules($operation) 
+    {   
+        $rules = [];
+
+        switch ($operation) {
+            case 'create':
+                $rules = [
+                    'name' => 'required',
+                    'password' => 'required',
+                    'email' => 'required|email|unique:users'
+                ];
+                break;
+                // add rules for other operations such as 'update', 'delete' if necessary
+            default:
+                $rules = [];
+                break;
+        }
+
+        return $rules;
+    }
 }
