@@ -19,8 +19,7 @@ class GetImage extends Controller
     {
         try {
             return Storage::url($request->get('path'));
-        } catch(Throwable $e)
-        {
+        } catch (Throwable $e) {
             abort(500, $e->getMessage());
         }
     }
