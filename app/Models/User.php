@@ -42,6 +42,12 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
+    public static $createRules = [
+        'name' => 'required',
+        'password' => 'required',
+        'email' => 'required|email|unique:users'
+    ];
+
     public function post()
     {
         return $this->hasMany(Post::class, 'user_id', 'id');

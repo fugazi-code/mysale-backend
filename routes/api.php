@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Api\Actions\RegisterUser;
 use App\Http\Controllers\Api\Actions\GetCategories;
 use App\Http\Controllers\Api\Actions\GetCitiesAction;
 use App\Http\Controllers\Api\Actions\GetFeaturedCategories;
@@ -9,6 +10,7 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Storage;
 
 Route::post('/login', LoginAction::class);
+Route::post('/register', RegisterUser::class);
 Route::get('/cities', GetCitiesAction::class);
 Route::get('/categories', GetCategories::class);
 Route::get('/featured-categories', GetFeaturedCategories::class);
