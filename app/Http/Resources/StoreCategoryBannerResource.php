@@ -3,9 +3,8 @@
 namespace App\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
-use Illuminate\Support\Facades\Storage;
 
-class GetFeaturedCategoriesResource extends JsonResource
+class StoreCategoryBannerResource extends JsonResource
 {
     /**
      * Transform the resource into an array.
@@ -16,10 +15,8 @@ class GetFeaturedCategoriesResource extends JsonResource
     public function toArray($request)
     {
         return [
-            'id' => $this->id,
-            'name' => $this->name,
-            'banner' => Storage::temporaryUrl($this->banner, now()->addDay()),
-            'count' => round($this->post_count, -1)
+            'code' => 200,
+            'updated_at' => $this->updated_at
         ];
     }
 }
